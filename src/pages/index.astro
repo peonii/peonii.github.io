@@ -1,6 +1,7 @@
 ---
 import "../styles/global.css";
 import Head from "../components/Head.astro";
+import '@fontsource/combo';
 ---
 
 <html lang="en">
@@ -11,7 +12,28 @@ import Head from "../components/Head.astro";
 		<meta name="generator" content={Astro.generator} />
                 <Head />
 	</head>
-	<body>
-            <h1 class="text-3xl font-bold text-center w-full py-24">what is this "silicate"</h1>
+	<body class="min-h-screen w-full bg-neutral-900 flex flex-col justify-center items-center space-y-8 font-mono text-sm md:text-base px-8 md:px-0">
+            <div class="space-y-4 max-w-[450px]">
+                <h1 class="font-display text-white text-6xl font-bold">hi! i'm nat!</h1>
+                <p class="text-neutral-500">she/her</p>
+                <p class="text-neutral-300">i like having fun on the inter webs. you may have used a thing i made! here are some of them and other things i'm proud of or find cool. oh and i like cats! 🐈</p>
+            </div>
+
+            <div class="flex space-x-6 max-w-[450px] flex-wrap justify-center space-y-1">
+                <a class="text-neutral-300 underline" href="https://github.com/silicate-bot">silicate</a>
+                <a class="text-neutral-300 underline" href="https://conv.nattie.dev/">converter</a>
+                <a class="text-neutral-300 underline" href="https://discord.com/invite/2PaSqR92Dv">omegabot</a>
+                <a class="text-neutral-300 underline" href="/comms">work with me?</a>
+            </div>
+
+            <p class="text-neutral-300 max-w-[450px]">i also have social media! feel free to message me, although i may not want to talk at all times!</p>
+            <div class="flex space-x-6 text-neutral-300 max-w-[450px] justify-center space-y-1">
+                <p>dc: <span class="">peony</span></p>
+                <p><a class="underline" href="https://catflowers.substack.com/">blog</a></p>
+                <p><a class="underline" href="https://www.youtube.com/@peony6666">youtube</a></p>
+                <p><a class="underline" href="https://github.com/peonii">github</a></p>
+            </div>
+
+            <p>😹</p>
 	</body>
 </html>
